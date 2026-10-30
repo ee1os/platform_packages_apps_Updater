@@ -51,7 +51,7 @@ public class Settings extends CollapsingToolbarBaseActivity {
     }
 
     static boolean shouldUseSecurityPreviewChannel(final Context context) {
-        // os.ivan.gg publishes no security preview releases, so the opt-in is ignored and hidden:
+        // ee1os publishes no security preview releases, so the opt-in is ignored and hidden:
         // a phone that opted in would ask for a channel file that never exists
         return false;
     }
